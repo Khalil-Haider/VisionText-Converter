@@ -1,4 +1,5 @@
 sentencepiece
+accelerate
 streamlit
 torch
 transformers
