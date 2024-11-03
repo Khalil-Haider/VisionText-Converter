@@ -67,7 +67,7 @@ def main():
     show_sidebar()
 
     # Initialize processors
-    video_processor = VideoProcessor()
+    video_processor = video_frame_processor()
     ocr_processor = OCRProcessor()
 
     # File upload section
