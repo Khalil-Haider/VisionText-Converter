@@ -19,8 +19,12 @@ class OCRProcessor:
                 image = Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
             
             if isinstance(image, Image.Image):
+                # Convert RGBA to RGB if image has alpha channel
+                if image.mode == 'RGBA':
+                    image = image.convert('RGB')
+                
                 with tempfile.NamedTemporaryFile(suffix='.jpg', delete=False) as tmp:
-                    image.save(tmp.name)
+                    image.save(tmp.name, format='JPEG')
                     doc = DocumentFile.from_images(tmp.name)
             else:
                 doc = DocumentFile.from_images(image)
@@ -41,4 +45,3 @@ class OCRProcessor:
 
         except Exception as e:
             raise Exception(f"Error processing image: {str(e)}")
-
