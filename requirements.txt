@@ -1,7 +1,7 @@
 # requirements.txt
 streamlit
 python-doctr
-opencv-contrib-python
+opencv-contrib-python-headless
 numpy
 Pillow
 python-docx
