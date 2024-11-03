@@ -1,0 +1,8 @@
+# requirements.txt
+streamlit
+python-doctr
+opencv-python
+numpy
+Pillow
+python-docx
+fpdf
