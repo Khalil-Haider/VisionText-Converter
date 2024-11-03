@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from utils.video_processor import video_frame_processor
+from utils.video_frame_processor import video_frame_processor
 from utils.ocr_processor import OCRProcessor
 from utils.export import DocumentExporter
 import tempfile
