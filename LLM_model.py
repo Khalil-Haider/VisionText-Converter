@@ -7,8 +7,8 @@ from io import BytesIO
 
 def load_llama_model():
     """Load the Llama model and tokenizer"""
-    tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
+    tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
     return model, tokenizer
 
 def extract_text_from_image(image, model, tokenizer):
