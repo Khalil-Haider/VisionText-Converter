@@ -3,6 +3,7 @@ streamlit
 python-doctr
 docTR[torch]  # Use PyTorch version
 torch
+torchvision
 opencv-contrib-python-headless
 numpy
 Pillow
