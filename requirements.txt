@@ -1,6 +1,8 @@
 # requirements.txt
 streamlit
 python-doctr
+docTR[torch]  # Use PyTorch version
+torch
 opencv-contrib-python-headless
 numpy
 Pillow
