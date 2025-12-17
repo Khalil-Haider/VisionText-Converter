@@ -1,6 +1,6 @@
 # 🎯 VisionText Converter
 
-VisionText Converter is an AI-powered tool that **extracts text from images and videos** in a fast and accurate way. Users can turn visual content into **searchable, editable text** without manual typing.
+VisionText Converter is an AI-powered tool that **extracts text from images and videos** in a good way. Users can turn visual content into **editable text** without manual typing.
 
 ---
 
